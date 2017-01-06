@@ -27,11 +27,11 @@ body {
 .navbar-brand {
   padding-top: 25px;
 }
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 {
   font-family: 'Lora', serif;
   color: #4B3E0D;
-  font-size: 1.5em;
-  text-transform: uppercase;
+  font-size: 1.2em;
+
   font-weight: bold;
   text-shadow: 1px 1px 1px #937428;
   margin-top: 0;
@@ -242,7 +242,7 @@ h3.menu-item-title {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    background: url('../images/jumbotron_1200ver2.jpg') no-repeat;
     height: 675px;
   }
 }
@@ -260,7 +260,7 @@ h3.menu-item-title {
 
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
+    background: url('../images/jumbotron_992ver2.jpg') no-repeat;
     height: 558px;
   }
   /* End Home Page */
@@ -272,7 +272,7 @@ h3.menu-item-title {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
+    background: url('../images/jumbotron_768ver2.jpg') no-repeat;
     height: 432px;
   }
   /* End Home Page */
@@ -280,12 +280,7 @@ h3.menu-item-title {
   /*Container margins: TODO*/
 }
 
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
 
-
-
-  /* Header */
 
 
   .navbar-brand {

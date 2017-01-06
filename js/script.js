@@ -15,7 +15,7 @@ var dc = {};
 
 var homeHtmlUrl = "snippets/home-snippet.html";
 var allCategoriesUrl =
-  "https://api.myjson.com/bins/434nn";
+  "https://api.myjson.com/bins/1azvq3";
 var categoriesTitleHtml = "snippets/categories-title-snippet.html";
 var categoryHtml = "snippets/category-snippet.html";
 var menuItemsUrl =
@@ -170,7 +170,7 @@ function menuDecide(categoryShort)
 
   }
   else if(categoryShort === "RF"){
-    return "https://api.myjson.com/bins/3i20u";
+    return "https://api.myjson.com/bins/10n5ij";
 
   }
 }
@@ -288,7 +288,7 @@ function buildMenuItemsViewHtml(categoryMenuItems,
   var menuItems = categoryMenuItems.menu_items;
   var catShortName = categoryMenuItems.category.short_name;
   console.log(catShortName);
-  if (catShortName === "PZ") switchPizzaToActive();
+  if (catShortName === "RF") switchPizzaToActive();
   else switchMenuToActive();
   for (var i = 0; i < menuItems.length; i++) {
     // Insert menu item values
@@ -324,6 +324,11 @@ function buildMenuItemsViewHtml(categoryMenuItems,
       insertProperty(html,
                      "description",
                      menuItems[i].description);
+
+    html =
+      insertProperty(html,
+                     "albumlink",
+                     menuItems[i].albumlink);
 
     // Add clearfix after every second menu item
     if (i % 2 !== 0) {
