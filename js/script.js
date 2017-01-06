@@ -170,7 +170,7 @@ function menuDecide(categoryShort)
 
   }
   else if(categoryShort === "RF"){
-    return "https://api.myjson.com/bins/10n5ij";
+    return "https://api.myjson.com/bins/jfxuj";
 
   }
 }
